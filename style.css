@@ -9,8 +9,14 @@ h1 {
 	text-align: center;
 }
 
+div {
+	border: 5px solid maroon;
+	text-align: center;
+	padding: 5px;
+}
+
 p {
 	color: gray;
-	border: 1p solid gray;
+	border: 1px solid gray;
 	padding: 10px;
 }
