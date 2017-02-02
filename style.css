@@ -6,55 +6,32 @@ header, main, footer {
 	min-width: 855px;
 }
 
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
 header {
 	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
 }
 
 main {
 	background: white;
 }
 
-h1 {
-	color: maroon;
-	text-align: center;
-}
-
 div {
-	border: 5px solid maroon;
-	text-align: center;
 	padding: 5px;
-}
-
-p {
-	color: gray;
-	border: 1px solid gray;
-	padding: 10px;
-}
-
-h2 {
-	background: green;
-	font-size: x-large;
-}
-
-nav {
-	width: 100px;
-	float: left;
-}
-
-nav p {
-	margin: 0;
-	padding: 0;
-}
-
-p.selected {
-	color: green;
-}
-
-p.content {
-	margin: 0;
-	padding: 10px;
-	float: left;
-	width: 380px;
 }
 
 a {
@@ -63,23 +40,6 @@ a {
 
 a:visited {
 	color: tomato;
-}
-
-ol {
-	border: 5px solid darksalmon;
-	border: radius: 10px;
-}
-
-.content li {
-	color: brown;
-}
-
-li:first-child {
-	background: yellow;
-}
-
-li:nth-child(2) {
-	background: orange;
 }
 
 footer {
