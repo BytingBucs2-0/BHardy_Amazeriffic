@@ -20,3 +20,64 @@ p {
 	border: 1px solid gray;
 	padding: 10px;
 }
+
+main {
+	width: 500px;
+	margin: auto;
+	overflow: auto;
+}
+
+h2 {
+	background: green;
+	font-size: x-large;
+}
+
+nav {
+	width: 100px;
+	float: left;
+}
+
+nav p {
+	margin: 0;
+	padding: 0;
+}
+
+p.selected {
+	color: green;
+}
+
+p.content {
+	margin: 0;
+	padding: 10px;
+	float: left;
+	width: 380px;
+}
+
+a {
+	color: cornflowerblue;
+}
+
+a:visited {
+	color: tomato;
+}
+
+ol {
+	border: 5px solid darksalmon;
+	border: radius: 10px;
+}
+
+.content li {
+	color: brown;
+}
+
+li:first-child {
+	background: yellow;
+}
+
+li:nth-child(2) {
+	background: orange;
+}
+
+footer {
+	clear: both;
+}
