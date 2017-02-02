@@ -1,7 +1,17 @@
 body {
-	background: lightcyan;
-	width: 800px;
-	margin: auto;
+	background: #F9E933;
+}
+
+header, main, footer {
+	min-width: 855px;
+}
+
+header {
+	background: white;
+}
+
+main {
+	background: white;
 }
 
 h1 {
@@ -19,12 +29,6 @@ p {
 	color: gray;
 	border: 1px solid gray;
 	padding: 10px;
-}
-
-main {
-	width: 500px;
-	margin: auto;
-	overflow: auto;
 }
 
 h2 {
